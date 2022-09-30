@@ -119,16 +119,8 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
                 "value": region_name,
                 "color": get_color()
             },
-            "weather": {
-                "value": weather,
-                "color": get_color()
-            },
             "temp": {
                 "value": temp,
-                "color": get_color()
-            },
-            "wind_dir": {
-                "value": wind_dir,
                 "color": get_color()
             },
             "love_day": {
@@ -190,8 +182,6 @@ if __name__ == "__main__":
     # 接收的用户
     users = config["user"]
     # 传入地区获取天气信息
-    region = config["region"]
-    weather, temp, wind_dir = get_weather(region)
     note_ch = config["note_ch"]
     note_en = config["note_en"]
     if note_ch == "" and note_en == "":
