@@ -115,10 +115,6 @@ def send_message(to_user, access_token, note_ch, note_en):
                 "value": "{} {}".format(today, week),
                 "color": get_color()
             },
-            "temp": {
-                "value": temp,
-                "color": get_color()
-            },
             "love_day": {
                 "value": love_days,
                 "color": get_color()
