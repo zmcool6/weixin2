@@ -10,7 +10,7 @@
 "user": ["oMrX15uC8gHP6iEtC_ib3wYYRX5Q"],
  
 # 信息配置
-# 和风天气apikey
+# 和风天气apikeyaa
 "weather_key":"654cae8e9aee4087aedeec972e923ba5",
 # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
 "region": "兴国县",
